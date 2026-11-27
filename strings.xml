@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JARVIS Companion</string>
+    <string name="accessibility_desc">Optional assisted handoff only. JARVIS never sends messages silently without your explicit confirmation.</string>
+</resources>

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    min-height: 100dvh;
+    background: radial-gradient(circle at 50% 18%, #071936 0%, #050B18 48%, #020617 100%);
+    color: #e2e8f0;
+  }
+}
+
+.hud-grid {
+  background-image:
+    linear-gradient(rgba(0, 229, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 229, 255, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.glass-card {
+  background: rgba(10, 21, 43, 0.68);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 229, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(56, 189, 248, 0.12);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 24px rgba(0, 229, 255, 0.35), 0 0 60px rgba(14, 165, 233, 0.15);
+}
